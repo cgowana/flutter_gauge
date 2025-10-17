@@ -74,8 +74,8 @@ class FlutterGauge extends StatefulWidget {
   Color activeColor;
   double paddingHand;
   Animate animate;
-  TextStyle counterStyle;
-  TextStyle textStyle;
+  TextStyle? counterStyle;
+  TextStyle? textStyle;
 
   FlutterGauge({this.isDecimal=true,this.inactiveColor = Colors.black,this.activeColor = Colors.red,this.textStyle,this.counterStyle,this.numberInAndOut = NumberInAndOut.inside,this.width/*,this.animate=Animate.none*/,this.paddingHand=30.0,this.circleColor = Colors.cyan,this.handColor = Colors.black,this.backgroundColor = Colors.cyan,this.indicatorColor = Colors.black,this.shadowHand=4.0,this.counterAlign=CounterAlign.bottom,this.number=Number.all,this.isCircle=true,this.hand= Hand.long,this.secondsMarker=SecondsMarker.all,this.handSize=30,this.start=0,this.end=100,@required this.index,this.fontFamily="",this.widthCircle=20,});
 
